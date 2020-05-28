@@ -153,3 +153,23 @@ a:active{
   color: #C2B2B4;
   font-size: 16px;
 }
+
+/* Text field, Text Area, and Input styling */
+form label{
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+form textarea{
+  height: 76px;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+form input[type=text]{
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
