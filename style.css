@@ -23,11 +23,13 @@ img.rounded{
 /* Header,Footer, Nav & Main*/
 header {
   display: block;
-  color: #F5EDF0;
   background-color: #223843;
-  text-align: center;
   border-bottom: 3px solid #f15025ff;
   border-top: 3px solid #f15025ff;
+}
+
+header h1{
+  color: #F5EDF0;
 }
 
 header nav{
