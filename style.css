@@ -37,13 +37,13 @@ header h1{
 
 header nav{
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
 header nav ul{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 header nav ul li{
@@ -51,9 +51,14 @@ header nav ul li{
 }
 
 header nav ul li a{
-  list-style-type: none; 
+  text-decoration: none;
   padding: 0 20px 0 0;
   color: #F5EDF0;
+}
+
+header nav ul li a:hover{
+  color: #f15025ff;
+  text-decoration: none;
 }
 
 main{
