@@ -20,13 +20,19 @@ img.rounded{
   background-color: #C2B2B4;
 }
 
-/* Header,Footer & Main*/
+/* Header,Footer, Nav & Main*/
 header, footer{
   color: #F5EDF0;
   background-color: #223843;
   text-align: center;
   border-bottom: 3px solid #f15025ff;
   border-top: 3px solid #f15025ff;
+}
+
+header nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 main{
@@ -84,7 +90,6 @@ a:link{
 }
 a:visted{
   font-family: Open-Sans, sans, sans-serif;
-  color: #223843;
   text-decoration: none;
   font-size: 16px;
 }
@@ -92,7 +97,6 @@ a:visted{
 a:hover{
   font-family: Open-Sans, sans, sans-serif;
   color: #f15025ff;
-  background-color: #223843;
   text-decoration: none;
   font-size: 16px;
 }
@@ -100,6 +104,5 @@ a:hover{
 a:active{
   font-family: Open-Sans, sans, sans-serif;
   color: #C2B2B4;
-  background-color: #f15025ff;
   font-size: 16px;
 }
