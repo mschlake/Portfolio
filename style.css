@@ -26,6 +26,7 @@ header {
   background-color: #223843;
   border-bottom: 3px solid #f15025ff;
   border-top: 3px solid #f15025ff;
+  height: 50px;
 }
 
 header h1{
