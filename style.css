@@ -115,13 +115,13 @@ p{
    flex-direction: row;
   } 
   
-  header{
+  header {
     display: flex;
     justify-context: space-between;
-    margin-left: 20px;
+    padding-left: 20px;
   }
   
-  header nav{
+  header nav {
     margin-top: 15px;
   }
 }
