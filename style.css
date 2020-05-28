@@ -118,7 +118,10 @@ p{
   header {
     display: flex;
     justify-context: space-between;
-    padding-left: 20px;
+  }
+  
+  header h1 {
+    padding-left: 25px;
   }
   
   header nav {
