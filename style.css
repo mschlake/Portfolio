@@ -105,7 +105,7 @@ p{
 }
 
 /* Groups & Items - Desktop */
-@media all and (min-width: 800px) {
+@media all and (min-width: 600px) {
   .wrapper{
     width: 80%;
     margin: auto;
@@ -114,6 +114,18 @@ p{
   .group{
    flex-direction: row;
   } 
+  
+  header{
+    display: flex;
+    justify-context: space-between;
+  }
+  
+  header h1{
+    
+  }
+  
+  header nav{
+  }
 }
 
 
