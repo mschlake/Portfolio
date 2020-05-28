@@ -35,6 +35,16 @@ header nav{
   justify-content: center;
 }
 
+header nav ul{
+  display: flex;
+  flex-direction: row;
+}
+
+/* remove bullets */
+header nav ul li{
+  list-style-type: none;
+}
+
 main{
   background-color: #F5EDF0;
   color: #223843;
